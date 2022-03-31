@@ -1,0 +1,15 @@
+import './Home.scss'
+
+const Home = () => {
+    return (
+    <div className="container home-page"> 
+        <div className='text-zone'>
+            <h1> Ying C. Lu </h1>
+            <h2> Junior Software Engineer </h2>
+        </div>
+            
+    </div>
+    )
+}
+
+export default Home  

@@ -1,4 +1,5 @@
 import './Layout.scss'
+import Home from '../Home/Home'
 import Sidebar from '../Sidebar/Sidebar'
 
 const Layout = () => {
@@ -6,9 +7,8 @@ const Layout = () => {
     <div className="App">
             <Sidebar />
         <div className='page'>
-            <span className="tags top-tags">&lt;body&gt;</span>
-           
-
+            <span className="tags top-tags">&lt;body&gt;</span>  
+        <Home />
             <span className="tags bottom-tags">
              &lt;body&gt;
             <br />
