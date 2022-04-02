@@ -6,7 +6,7 @@ import AnimatedLetters from '../AnimatedLetters/AnimatedLetters';
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const nameArray = ['Y', 'i', 'n', 'g', ' ', 'C', '.', ' ', 'L', 'u']
-    const jobArray= ['J','u','n','i','o','r',' ','S','o','f','t','w','a','r','e',' ', 'E','n','g','i','n','e','e','r']
+    const jobArray= ['Junior Software Engineer']
 
     useEffect(() => {
         return setTimeout(() => {
