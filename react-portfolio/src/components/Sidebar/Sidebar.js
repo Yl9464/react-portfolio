@@ -3,14 +3,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faHome, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink } from 'react-router-dom'
-import ProfilePic from '../../assets/images/Profile-pic.png'
+import ProfilePic from '../../assets/images/pic.png'
 
 
 const Sidebar = () => {
 return (
   <div className="nav-bar">
       <img className='my-pic' src={ProfilePic} alt="my-pic" />
-      <p className='Name'>Ying C. Lu</p>
     <nav>
       <NavLink exact="true" activeclassname="active" to="/">
         <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
