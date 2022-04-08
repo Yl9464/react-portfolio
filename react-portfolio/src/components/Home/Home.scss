@@ -6,12 +6,12 @@
     transform: translateY(-50%);
     width: 40%;
     max-height: 90%;
+    text-align: center;
     }
     h1{
         color: #fff;
         font-size: 56px;
         line-height: 53px;
-        margin: 0;
         font-family: 'Coolvetica';
         font-weight: 400;
 
@@ -62,6 +62,7 @@
     float: left;
     animation: fadeIn 1s 1.8s backwards;
     white-space: nowrap;
+    margin-left: 130px;
 
     &:hover{
         background: #ffd700;
