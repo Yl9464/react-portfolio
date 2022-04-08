@@ -2,7 +2,7 @@ import './Home.scss';
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters';
-
+import ProfilePic from './Profile-pic/Profile'
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -15,24 +15,29 @@ const Home = () => {
         }, 4000)
         }, [])
     return (
-    <div className="container home-page"> 
-        <div className='text-zone'>
-                <h1>
-                <AnimatedLetters letterClass={letterClass}
-                    strArray={nameArray}
-                    idx={0}
-                    />
-                </h1>
-                <h2>
-                    <AnimatedLetters letterClass={letterClass}
-                    strArray={jobArray}
-                    idx={33}
-                    />
-                </h2>
-            <Link to='/contact' className='flat-button'>CONTACT ME</Link>       
+      <div className="container home-page">
+        <div className="text-zone">
+          <ProfilePic />
+          <h1>
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={nameArray}
+              idx={0}
+            />
+          </h1>
+          <h2>
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={jobArray}
+              idx={33}
+            />
+          </h2>
+
+          <Link to="/contact" className="flat-button">
+            CONTACT ME
+          </Link>
         </div>
-            
-    </div>
+      </div>
     )
 }
 
