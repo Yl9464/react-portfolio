@@ -2,7 +2,7 @@ import './Home.scss';
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters';
-import ProfilePic from './Profile-pic/Profile'
+//import ProfilePic from './Profile-pic/Profile'
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -17,7 +17,7 @@ const Home = () => {
     return (
       <div className="container home-page">
         <div className="text-zone">
-          <ProfilePic />
+  
           <h1>
             <AnimatedLetters
               letterClass={letterClass}

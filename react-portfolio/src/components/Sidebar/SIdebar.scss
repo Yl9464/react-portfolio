@@ -1,26 +1,24 @@
 .nav-bar{
     background: #181818;
-    width: 100px;
+    width: 150px;
     height: 100%;
     position: absolute;
     top: 0;
     z-index: 3;
     min-height: 500px;
 
-    .logo{
+    .my-pic{
         display: block;
-        padding: 8px 0;
-        
-        img{
-            display: block;
-            margin: 8px auto;
-            width: 50px;
-            height: auto;
-        }
+        width: 115px;
+        height: 115px;
+        margin: 20px ;
+    }
 
-        &.sub-logo{
-            width: 50px
-        }
+    .Name{
+      color: #fff;
+      text-align: center;
+      font-family: 'Coolvetica';
+
     }
 }
 
