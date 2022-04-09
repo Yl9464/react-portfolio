@@ -22,7 +22,7 @@ const Home = () => {
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
-              idx={0}
+              idx={9}
             />
           </h1>
           <h2>
@@ -35,9 +35,6 @@ const Home = () => {
           <div className='Logos'>
             <Logo/>
         </div>
-          <Link to="/contact" className="flat-button">
-            CONTACT ME
-          </Link>
         </div>
       </div>
     )
