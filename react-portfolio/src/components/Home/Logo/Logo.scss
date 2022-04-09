@@ -1,25 +1,9 @@
 .Logos{
 display: flex;
-background-color: white;
 flex-flow: row wrap;
-justify-content: space-around;
 align-items: center;
 align-content: space-between;
-width: 600px;
-height: 400px;
-margin: 13px;
-
-.API, .Chai, .CSS{
-    width: 15%;
 }
-.HTMl, .JavaScript, .Mocha{
-    width: 15%;
-}
-.MySQL, .Node, .Postman {
-    width: 15%;
-}
-}
-
 
 
 

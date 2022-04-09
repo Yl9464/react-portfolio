@@ -1,38 +1,31 @@
 import './Logo.scss'
 import { useEffect, useRef } from 'react'
-import API from '../../../assets/images/API.png'
-import Chai from '../../../assets/images/Chai.png'
-import CSS from '../../../assets/images/CSS.png'
-import HTML from '../../../assets/images/HTML.png'
-import JavaScript from '../../../assets/images/JS.png'
-import Mocha from '../../../assets/images/Mocha.png'
-import MySQL from '../../../assets/images/MySQL.png'
-import Node from '../../../assets/images/Node.png'
-import Postman from '../../../assets/images/Postman.png'
-import React from '../../../assets/images/React.png'
-import Sequelize from '../../../assets/images/Sequelize.png'
-//import AllLogos from '../../../assets/images/Logos.png'
+import {
+  faHtml5,
+  faGithub,
+  faReact,
+  faNodeJs,
+  faCss3,
+  faJs
+} from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
+
+//import API from '../../../assets/images/API.png'
+//import Chai from '../../../assets/images/Chai.png'
+//import Mocha from '../../../assets/images/Mocha.png'
+//import MySQL from '../../../assets/images/MySQL.png'
+//import Postman from '../../../assets/images/Postman.png'
 
 const Logo = () => {
   return (
     <div className="Logos-container">
-      <div className="row-one">
-        <img className="API" src={API} alt="API-logo" />
-        <img className="Chai" src={Chai} alt="Chai-logo" />
-        <img className="CSS" src={CSS} alt="CSS-logo" />
-      </div>
-      <div className="row-two">
-        <img className="HTML" src={HTML} alt="HTML-logo" />
-        <img className="JavaScript" src={JavaScript} alt="JS-logo" />
-        <img className="Mocha" src={Mocha} alt="Mocha-logo" />
-      </div>
-      <div className="row-three">
-        <img className="MySQL" src={MySQL} alt="MySQL-logo" />
-        <img className="Node" src={Node} alt="Node-logo" />
-        <img className="Postman" src={Postman} alt="Postman-logo" />
-    
-      </div>
+      <FontAwesomeIcon icon={faHtml5} color="orange" size="5x" />
+      <FontAwesomeIcon icon={faGithub} color="black" size="5x" />
+      <FontAwesomeIcon icon={faReact} color="black" size="5x" />
+      <FontAwesomeIcon icon={faNodeJs} color="black" size="5x" />
+      <FontAwesomeIcon icon={faJs} color="black" size="5x" />
+      <FontAwesomeIcon icon={faCss3} color="blue" size="5x" />
     </div>
   )
 }
