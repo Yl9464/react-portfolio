@@ -1,11 +1,26 @@
-.icon-container{
+.icons{
     display: flex;
     flex-wrap: wrap;
     flex-flow: row;
-}
-.github, .react, .node, .Js, .Css3{
-    margin-left: 20px;
-}
 
+    .icons-zone{
+        position: absolute;
+        left: 50%;
+        top: 175%;
+        width:max-content;
+        text-align: right;
+
+    &:before{
+        content: '<FontAwesomeIcon>';
+        opacity: 0.6;
+    }
+
+    &::after{
+        content: '<FontAwesomeIcon>';
+        animation: fadeIn 1s 1.7s backwards;
+        opacity: 0.6;
+    }
+}
+}
 
 
