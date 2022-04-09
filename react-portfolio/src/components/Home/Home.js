@@ -2,7 +2,7 @@ import './Home.scss';
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters';
-//import ProfilePic from './Profile-pic/Profile'
+import Logo from './Logo/Logo'
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -32,7 +32,9 @@ const Home = () => {
               idx={33}
             />
           </h2>
-
+          <div className='Logos'>
+            <Logo/>
+        </div>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
