@@ -1,8 +1,10 @@
-.Logos{
-display: flex;
-flex-flow: row wrap;
-align-items: center;
-align-content: space-between;
+.icon-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+}
+.github, .react, .node, .Js, .Css3{
+    margin-left: 20px;
 }
 
 

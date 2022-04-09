@@ -1,5 +1,6 @@
 import './Logo.scss'
 import { useEffect, useRef } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faHtml5,
   faGithub,
@@ -8,24 +9,17 @@ import {
   faCss3,
   faJs
 } from '@fortawesome/free-brands-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-
-//import API from '../../../assets/images/API.png'
-//import Chai from '../../../assets/images/Chai.png'
-//import Mocha from '../../../assets/images/Mocha.png'
-//import MySQL from '../../../assets/images/MySQL.png'
-//import Postman from '../../../assets/images/Postman.png'
 
 const Logo = () => {
   return (
-    <div className="Logos-container">
-      <FontAwesomeIcon icon={faHtml5} color="orange" size="5x" />
-      <FontAwesomeIcon icon={faGithub} color="black" size="5x" />
-      <FontAwesomeIcon icon={faReact} color="black" size="5x" />
-      <FontAwesomeIcon icon={faNodeJs} color="black" size="5x" />
-      <FontAwesomeIcon icon={faJs} color="black" size="5x" />
-      <FontAwesomeIcon icon={faCss3} color="blue" size="5x" />
+    <div className="icon-container">
+      <FontAwesomeIcon classname='html' icon={faHtml5} color="red" size="8x" />
+      <FontAwesomeIcon className='github' icon={faGithub} color="white" size="8x" />
+      <FontAwesomeIcon className='react' icon={faReact} color="teal" size="8x" />
+      <FontAwesomeIcon className='node' icon={faNodeJs} color="green" size="8x" />
+      <FontAwesomeIcon className='Js' icon={faJs} color="yellow" size="8x" />
+      <FontAwesomeIcon className='Css3' icon={faCss3} color="blue" size="8x" />
     </div>
   )
 }
