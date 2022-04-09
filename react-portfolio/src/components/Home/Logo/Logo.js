@@ -10,24 +10,13 @@ import Node from '../../../assets/images/Node.png'
 import Postman from '../../../assets/images/Postman.png'
 import React from '../../../assets/images/React.png'
 import Sequelize from '../../../assets/images/Sequelize.png'
-
+import AllLogos from '../../../assets/images/Logos.png'
 import './Logo.scss'
 
 const Logo = () => {
   return (
-    <div className="logo-row">
-      <div className='logo-columns'>
-      <img className="API" src={API} alt="API-logo" />
-      <img className="Chai" src={Chai} alt="Chai-logo" />
-      <img className="CSS" src={CSS} alt="CSS-logo" />
-      <img className="HTML" src={HTML} alt="HTML-logo" />
-      <img className="JavaScript" src={JavaScript} alt="JS-logo" />
-      <img className="Mocha" src={Mocha} alt="Mocha-logo" />
-      <img className="MySQL" src={MySQL} alt="MySQL-logo" />
-      <img className="Node" src={Node} alt="Node-logo" />
-      <img className="Postman" src={Postman} alt="Postman-logo" />
-      <img className="Sequelize" src={Sequelize} alt="Sequelize-logo" />
-      </div>
+    <div className="Logos">
+      <img className='All-logos' src={AllLogos} alt='All-logos' />
     </div>
   )
 }
