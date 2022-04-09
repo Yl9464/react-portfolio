@@ -35,9 +35,6 @@ const Home = () => {
           <div className='Logos'>
             <Logo/>
         </div>
-          <Link to="/contact" className="flat-button">
-            CONTACT ME
-          </Link>
         </div>
       </div>
     )
